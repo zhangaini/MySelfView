@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--自定义属性集合:CircleView-->
+    <!--在该集合下,设置不同的自定义属性-->
+    <declare-styleable name="CircleView">
+    <!--在attr标签下设置需要的自定义属性-->
+    <!--此处定义了一个设置图形的颜色:circle_color属性,格式是color,代表颜色-->
+    <!--格式有很多种,如资源id(reference)等等-->
+    <attr name="circle_color" format="color"/>
+    </declare-styleable>
+
+    <!--<&#45;&#45; 1. reference：使用某一资源ID &ndash;&gt;-->
+    <!--<declare-styleable name="名称">-->
+        <!--<attr name="background" format="reference" />-->
+    <!--</declare-styleable>-->
+    <!--// 使用格式-->
+    <!--<ImageView-->
+        <!--android:layout_width="42dip"-->
+        <!--android:layout_height="42dip"-->
+        <!--android:background="@drawable/图片ID" />-->
+
+    <!--<&#45;&#45;  2. color：颜色值 &ndash;&gt;-->
+    <!--<declare-styleable name="名称">-->
+        <!--<attr name="textColor" format="color" />-->
+    <!--</declare-styleable>-->
+    <!--// 格式使用-->
+    <!--<TextView-->
+        <!--android:layout_width="42dip"-->
+        <!--android:layout_height="42dip"-->
+        <!--android:textColor="#00FF00" />-->
+
+    <!--<&#45;&#45; 3. boolean：布尔值 &ndash;&gt;-->
+    <!--<declare-styleable name="名称">-->
+        <!--<attr name="focusable" format="boolean" />-->
+    <!--</declare-styleable>-->
+    <!--// 格式使用-->
+</resources>

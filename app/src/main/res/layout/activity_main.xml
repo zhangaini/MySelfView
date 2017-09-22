@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.zhang.myselfview.MainActivity">
+    <com.zhang.myselfview.TitleBar
+        android:id="@+id/titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    </com.zhang.myselfview.TitleBar>
+
+  <com.zhang.myselfview.CounterView
+      android:layout_width="200dp"
+      android:layout_height="200dp"
+
+      android:layout_centerInParent="true"
+
+      />
+<com.zhang.myselfview.CircleView
+    app:circle_color="@color/colorPrimaryDark"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:paddingLeft="20dp"
+    android:paddingBottom="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="20dp"
+    android:background="@color/colorAccent"
+    />
+<!--<com.zhang.myselfview.MySurfaceView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+
+
+    <!--/>-->
+</RelativeLayout>
